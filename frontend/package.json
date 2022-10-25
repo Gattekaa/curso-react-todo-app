@@ -1,7 +1,6 @@
 {
   "name": "frontend",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "webpack-dev-server --progress --colors --inline --hot",
@@ -34,5 +33,12 @@
     "style-loader": "^0.13.1",
     "webpack": "^1.14.0",
     "webpack-dev-server": "^1.16.2"
+  },
+  "description": "",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "mongoose": "^4.7.0",
+    "node-restful": "^0.2.5",
+    "pm2": "^2.1.5"
   }
 }

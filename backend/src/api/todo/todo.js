@@ -1,3 +1,4 @@
+const { Schema } = require('mongoose')
 const restful = require('node-restful')
 const mongoose = restful.mongoose
 
