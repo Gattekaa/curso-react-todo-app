@@ -16,6 +16,11 @@ node_modules/
 
 # production
 /build
+*/.ttf
+*/.woff
+*/.woff2
+*/.svg
+*/.eot
 
 # misc
 .DS_Store

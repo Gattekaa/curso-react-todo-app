@@ -16,6 +16,9 @@
 .todoForm {
     display: flex;
     padding-bottom: 60px;
+    justify-content: space-between;
+    margin-right: 10px;
+
 
 }
 .todoForm input {
@@ -24,8 +27,14 @@
 
 .btnw {
     width: 40px;
+    height: 40px;
+    border-radius: 50%;
 }
 
 .btncl {
     margin-left: 10px;
+}
+
+.btn-style {
+    display: flex;
 }
